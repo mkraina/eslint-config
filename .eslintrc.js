@@ -35,6 +35,7 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/prefer-optional-chain': 'error',
+        '@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
       },
     },
   ],
