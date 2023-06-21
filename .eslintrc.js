@@ -90,6 +90,7 @@ module.exports = {
       },
     ],
     'react/self-closing-comp': 'error',
+    'react/no-children-prop': 'error',
     'react/jsx-sort-props': [
       'error',
       {
