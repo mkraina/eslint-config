@@ -69,7 +69,7 @@ module.exports = {
     'max-len': ['error', 200], // https://eslint.org/docs/rules/max-len
     'max-lines': ['error', 300], // https://eslint.org/docs/rules/max-lines
     'max-statements': ['error', 10], // https://eslint.org/docs/rules/max-statements
-    'max-lines-per-function': ['error', 50], //https://eslint.org/docs/rules/max-lines-per-function
+    'max-lines-per-function': ['error', {max: 75, skipBlankLines: true, skipComments: true}], //https://eslint.org/docs/rules/max-lines-per-function
     'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'react/jsx-key': ['error', { checkFragmentShorthand: true, checkKeyMustBeforeSpread: true }],
     '@shopify/prefer-early-return': 'error',
