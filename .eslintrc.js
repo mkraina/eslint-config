@@ -163,5 +163,7 @@ module.exports = {
     'func-style': ['error', 'expression', { allowArrowFunctions: true }],
     '@typescript-eslint/no-use-before-define': 'error',
     'eslint-comments/no-unused-disable': 'error',
+
+    'react-native/no-inline-styles': 'error',
   },
 };
